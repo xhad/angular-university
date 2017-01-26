@@ -1,0 +1,13 @@
+td {
+  padding: 10px;
+}
+
+.marvel {
+  background: #b13138;
+  border: 1px solid gray;
+  color: white;
+}
+
+.marvel.hulk {
+  background: green;
+}

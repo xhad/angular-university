@@ -1,0 +1,9 @@
+/*@import '~@angular/material/core/theming/prebuilt/pink-bluegrey.css';*/
+html, body {
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+md-sidenav-layout {
+  height: 100%;
+}

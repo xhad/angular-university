@@ -1,0 +1,7 @@
+<md-card>
+<h3>Color Sample Component</h3>
+<div class="color-sample" [ngStyle]="{'background-color': color.value}"> {{color.value}}</div>
+<md-input-container>
+  <input md-input placeholder="enter a color" #color>
+</md-input-container>
+</md-card>

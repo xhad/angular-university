@@ -1,0 +1,22 @@
+.app-icon-button {
+  margin: 10px;
+}
+
+md-sidenav {
+  background-color: #b6b6b6;
+  color: black;
+}
+
+
+md-list a {
+  text-decoration: none;
+}
+
+md-list a:visited {
+    color: black;
+}
+
+.app-cancel-icon {
+  float: right;
+  margin: 10px;
+}

@@ -1,0 +1,20 @@
+:host /deep/ md-radio-button.td-white-radio-button{
+  .md-radio-outer-circle {
+    border-color: white !important;
+  }
+  .md-radio-inner-circle {
+    background-color: white !important;
+  }
+}
+
+
+.md-card-position-fixed{
+    position: fixed;
+}
+a.active {
+  display: block;
+
+  background-color: #CFD8DC;
+  color: #263238;
+
+}

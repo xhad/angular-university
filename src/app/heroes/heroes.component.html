@@ -1,0 +1,25 @@
+<md-card>
+  <h3>Heroes Component (ngFor)</h3>
+  <table>
+    <thead>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Even</th>
+      <th>Odd</th>
+      <th>first</th>
+      <th>last</th>
+    </thead>
+    <tbody>
+      <tr [ngClass]="classes(hero)" *ngFor="let hero of heroes; let i = index;
+        let idEven = even; let idOdd = odd; let isFirst = first;
+        let isLast = last; trackBy: hero?.id">
+        <td>{{i}}</td>
+        <td>{{hero.name}}</td>
+        <td>{{idEven}}</td>
+        <td>{{idOdd}}</td>
+        <td>{{isFirst}}</td>
+        <td>{{isLast}}</td>
+      </tr>
+    </tbody>
+  </table>
+</md-card>

@@ -1,0 +1,38 @@
+<md-toolbar color="primary">
+  <button class="app-icon-button"
+          [hidden]="menuBtnHidden"
+          (click)="sidenav.toggle();
+                  toggleMenuButton()"
+  >
+    <i class="material-icons app-toolbar-menu">menu</i>
+  </button>
+  <h3>Angular University</h3>
+</md-toolbar>
+<md-sidenav #sidenav mode="side" class="app-sidenav">
+    <div (click)="sidenav.toggle(); toggleMenuButton()">
+      <i class="material-icons app-cancel-icon">cancel</i>
+  <md-list>
+    <md-list-item>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="/heroes">Heroes</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="/color-picker">Color Picker</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="/color-sample">Color Sample</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="/search-box">Search Box</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="toggle-me">Toggle Me</a>
+    </md-list-item>
+    <md-list-item>
+      <a routerLink="dynamic-form">Dynamic Form</a>
+    </md-list-item>
+  </md-list>
+</div>
+</md-sidenav>

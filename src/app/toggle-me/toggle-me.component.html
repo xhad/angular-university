@@ -1,0 +1,8 @@
+<md-card>
+  <h3>Toggle Me (ngIf)</h3>
+  <div class="toggle-panel" *ngIf="show" [hidden]="hidden"
+    [style.visibility]="visibility">Toggle Me</div>
+  <button md-raised-button (click)="toggleShow()">Show</button>
+  <button md-raised-button (click)="toggleHidden()">Hidden</button>
+  <button md-raised-button (click)="toggleVisible()">Visible</button>
+</md-card>
